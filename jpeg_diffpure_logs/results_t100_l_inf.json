@@ -1,0 +1,26 @@
+{
+  "50": {
+    "clean_no_defense": 0.921875,
+    "clean_with_defense": 0.9062,
+    "robust_aa": 0.8125,
+    "robust_bpda_eot": 0.5,
+    "aa_time_sec": 6798.00244140625,
+    "bpda_time_sec": 1072.9823517725
+  },
+  "75": {
+    "clean_no_defense": 0.921875,
+    "clean_with_defense": 0.8594,
+    "robust_aa": 0.8125,
+    "robust_bpda_eot": 0.734395,
+    "aa_time_sec": 10827.002716064453,
+    "bpda_time_sec": 1406.0283203125
+  },
+  "100": {
+    "clean_no_defense": 0.921875,
+    "clean_with_defense": 0.875,
+    "robust_aa": 0.8125,
+    "robust_bpda_eot": 0.7656,
+    "aa_time_sec": 13696.024963140488,
+    "bpda_time_sec": 1856.9442265625
+  }
+}
