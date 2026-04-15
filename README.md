@@ -42,8 +42,8 @@ Main idea:
   - Feature squeeze (quantization + spatial squeeze) + DiffPure.
 - `autoattack.ipynb`
   - Standalone/auxiliary AutoAttack experimentation.
-- `jpeg_diffpure_logs/`
-  - JSON results for one JPEG+DiffPure run set.
+- `diffpure_logs/`
+  - JSON results for one DiffPure run set.
 - `jpeg_diffpure_logs_jpeg65/`
   - JSON results for JPEG quality 65 runs.
 - `jpeg_diffpure_logs_jpeg75/`
@@ -127,7 +127,7 @@ The notebooks already contain Colab-oriented setup sections (`%pip`, cloning, an
 
 Saved metrics are JSON files such as:
 
-- `jpeg_diffpure_logs/results_t50_l_inf.json`
+- `diffpure_logs/results_t50_l_inf.json`
 - `jpeg_diffpure_logs_jpeg65/results_t50_l_inf.json`
 - `squeeze_diffpure_logs/results_t50_l_inf.json`
 
