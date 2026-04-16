@@ -32,8 +32,6 @@ Main idea:
 
 - `diffpure_final.ipynb`
   - Main DiffPure benchmark notebook (AutoAttack + BPDA-EOT).
-- `diffpure_only.ipynb`
-  - DiffPure-only variant with similar pipeline.
 - `jpeg_diffpure_final_q65.ipynb`
   - JPEG(Q=65) + DiffPure pipeline.
 - `jpeg_diffpure_final_q75.ipynb`
