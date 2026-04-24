@@ -1,1 +1,26 @@
-{"50": {"clean_no_defense": 0.921875, "clean_with_defense": 0.703125, "robust_aa": 0.734375, "robust_bpda_eot": 0.484375, "aa_time_sec": 6335.36980009079, "bpda_time_sec": 1118.7279844284058}, "75": {"clean_no_defense": 0.921875, "clean_with_defense": 0.75, "robust_aa": 0.6875, "robust_bpda_eot": 0.640625, "aa_time_sec": 9427.875239610672, "bpda_time_sec": 1573.0775682926178}, "100": {"clean_no_defense": 0.921875, "clean_with_defense": 0.75, "robust_aa": 0.765625, "robust_bpda_eot": 0.625, "aa_time_sec": 12619.11086678505, "bpda_time_sec": 2069.7209417819977}}
+{
+    "50": {
+        "clean_no_defense": 0.921875,
+        "clean_with_defense": 0.703125,
+        "robust_aa": 0.734375,
+        "robust_bpda_eot": 0.484375,
+        "aa_time_sec": 6335.36980009079,
+        "bpda_time_sec": 1118.7279844284058
+    },
+    "75": {
+        "clean_no_defense": 0.921875,
+        "clean_with_defense": 0.75,
+        "robust_aa": 0.6875,
+        "robust_bpda_eot": 0.640625,
+        "aa_time_sec": 9427.875239610672,
+        "bpda_time_sec": 1573.0775682926178
+    },
+    "100": {
+        "clean_no_defense": 0.921875,
+        "clean_with_defense": 0.75,
+        "robust_aa": 0.765625,
+        "robust_bpda_eot": 0.625,
+        "aa_time_sec": 12619.11086678505,
+        "bpda_time_sec": 2069.7209417819977
+    }
+}

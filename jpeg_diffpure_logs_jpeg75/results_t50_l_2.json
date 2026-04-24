@@ -1,1 +1,10 @@
-{"50": {"clean_no_defense": 0.921875, "clean_with_defense": 0.875, "robust_aa": 0.84375, "robust_bpda_eot": 0.8125, "aa_time_sec": 8434.141912937164, "bpda_time_sec": 925.0486273765564}}
+{
+    "50": {
+        "clean_no_defense": 0.921875,
+        "clean_with_defense": 0.875,
+        "robust_aa": 0.84375,
+        "robust_bpda_eot": 0.8125,
+        "aa_time_sec": 8434.141912937164,
+        "bpda_time_sec": 925.0486273765564
+    }
+}
