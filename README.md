@@ -25,6 +25,7 @@ Main idea:
 - DiffPure-only evaluation notebooks.
 - JPEG + DiffPure notebooks at quality 65 and 75.
 - Feature-squeezing + DiffPure notebook.
+- Qualitative visualization notebooks (trajectory snapshots + ablations).
 - A standalone AutoAttack playground notebook.
 - Saved JSON logs for multiple settings.
 
@@ -38,6 +39,13 @@ Main idea:
   - JPEG(Q=75) + DiffPure pipeline.
 - `feature_squeezing_diffpure_final.ipynb`
   - Feature squeeze (quantization + spatial squeeze) + DiffPure.
+- `qual_comparison.ipynb`
+  - Qualitative comparison figure for **DiffPure vs JPEG warm-start + DiffPure**.
+  - Uses a **single** shared PGD \( \ell_\infty \) adversarial example for both rows, then captures intermediate snapshots along **one** reverse-SDE trajectory per row.
+  - Saves individual PNGs to `./visualization_outputs/` (configurable via `OUT_DIR`).
+- `ablation_for_qual_comparison.ipynb`
+  - Qualitative ablations that vary trajectory settings (e.g., start \(t\)) and save per-example outputs for side-by-side comparison.
+  - Saves outputs under `./diffpure_ablation_examples_start_only/` by default (or a Drive path when run in Colab).
 - `autoattack.ipynb`
   - Standalone/auxiliary AutoAttack experimentation.
 - `diffpure_logs/`
@@ -111,6 +119,8 @@ jupyter notebook
 - `jpeg_diffpure_final_q65.ipynb`
 - `jpeg_diffpure_final_q75.ipynb`
 - `feature_squeezing_diffpure_final.ipynb`
+- `qual_comparison.ipynb` (qualitative figure)
+- `ablation_for_qual_comparison.ipynb` (qualitative ablations)
 
 Notes:
 
